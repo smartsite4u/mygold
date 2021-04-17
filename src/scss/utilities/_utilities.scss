@@ -1,0 +1,46 @@
+@import 'fonts';
+@import 'inputs';
+
+.has-interaction,
+.can-interact {
+    cursor: pointer;
+}
+
+// navigation
+.navbar-toggler-icon {
+    
+}
+
+// decorations
+.chevronArrow {
+    height: 20px;
+    width: 13px;
+}
+
+.is-underlined {
+    text-decoration: underline;
+}
+
+// backgrounds
+.full-bg {
+    background-size: cover;
+    background-position: 50%;
+}
+
+.bg-slate {
+    background-color: $mg-slate;
+}
+
+.bg-dark-slate {
+    background-color: $mg-dark-slate;
+}
+
+// elements
+footer {
+    padding-top: 35px;
+    padding-bottom: 40px;
+
+    a {
+        color: #fff;
+    }
+}

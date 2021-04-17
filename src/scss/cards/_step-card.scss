@@ -1,0 +1,35 @@
+.intro-step-card {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid $mg-light-slate;
+
+    p {
+        font-family: $primary-font;
+        font-size: 16px;
+        line-height: 26px;
+        color: #fff;
+    }
+
+    .step-number {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+        height: 40px;
+        min-height: 40px;
+        width: 40px;
+        min-width: 40px;
+        background-color: $mg-gold;
+
+        p {
+            margin-bottom: 0;
+            font-family: $secondary-font;
+            font-size: 20px;
+            color: #fff;
+        }
+    }
+
+
+}

@@ -1,0 +1,25 @@
+.primary-btn {
+    padding: 14px 26px !important;
+    color: #fff !important;
+    font-size: 16px;
+    font-family: $primary-font;
+    background-color: $mg-dark-green;
+    background-position: center;
+    border: 1px solid $mg-light-green;
+    border-radius: 25px;
+    outline: none;
+    transition: $all-3;
+
+    &:hover {
+        text-decoration: none;
+        box-shadow: 0 0 40px 2px $mg-light-green;
+        background: $mg-dark-green radial-gradient(circle, transparent 1%, $mg-light-green 1%) center/15000%;
+    }
+
+    &:active {
+        background-color: $mg-light-green;
+        background-size: 100%;
+        transition: background 0s;
+    }
+
+}

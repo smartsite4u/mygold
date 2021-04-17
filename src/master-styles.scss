@@ -1,0 +1,32 @@
+// gather all scss partials
+
+// include libs
+@import "scss/global";
+
+// Slick slider
+// $slick-font-path: "~slick-carousel/slick/fonts/";
+// $slick-loader-path: "~slick-carousel/slick/";
+// @import '~slick-carousel/slick/slick', '~slick-carousel/slick/slick-theme';
+
+
+// do not touch this file
+@import "scss/site-variables";
+
+
+// free to go ham below
+@import "scss/pages/pages";
+
+// @import "scss/layouts/layouts";
+
+// @import "scss/forms/forms";
+
+@import "scss/modals/modals";
+
+@import "scss/buttons/buttons";
+
+@import "scss/cards/cards";
+
+// @import "scss/navs/navigation";
+
+@import "scss/utilities/utilities";
+
