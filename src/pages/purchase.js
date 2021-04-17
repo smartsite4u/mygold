@@ -121,8 +121,6 @@ const PurchasePage = () => {
   const [phone, setPhone] = useState('');
   const [email, setEmail] = useState('');
   const [document, setDocument] = useState('');
-  const [tfn, setTfn] = useState('');
-  const [acn, setAcn] = useState('');
   const [line1, setLine1] = useState('');
   const [line2, setLine2] = useState('');
   const [city, setCity] = useState('');
