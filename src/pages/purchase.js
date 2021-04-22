@@ -417,18 +417,8 @@ const PurchasePage = () => {
                   </div>
 
                   <div className="d-flex flex-column flex-md-row align-items-center">
-                    <label>Tax File Number</label>
-                    <input type="text" name="tfn" required defaultValue={tfn}/>
-                  </div>
-
-                  <div className="d-flex flex-column flex-md-row align-items-center">
-                    <label>ACN</label>
-                    <input type="text" name="acn" defaultValue={acn}/>
-                  </div>
-
-                  <div className="d-flex flex-column flex-md-row align-items-center">
                     <label>Wallet Number</label>
-                    <input type="text" name="acn" defaultValue={wallet}/>
+                    <input type="text" name="phone" defaultValue={wallet}/>
                   </div>
 
                   <div className="d-flex flex-column flex-md-row sm-group align-items-center">
